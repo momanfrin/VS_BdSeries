@@ -1,0 +1,95 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Ator]
+       [dbo].[Avaliacao]
+       [dbo].[ClassificacaoEtaria]
+       [dbo].[Diretor]
+       [dbo].[Episodio]
+       [dbo].[Genero]
+       [dbo].[IdiomaDublado]
+       [dbo].[IdiomaLegendado]
+       [dbo].[PaisOrigem]
+       [dbo].[Produtora]
+       [dbo].[Serie]
+       [dbo].[Serie_Ator]
+       [dbo].[Serie_Genero]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column NomeAtor in table [dbo].[Ator] is currently  NVARCHAR (100) NOT NULL but is being changed to 
+         NVARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with
+         type  NVARCHAR (50) NULL.
+       The type for column NomeGenero in table [dbo].[Genero] is currently  NVARCHAR (100) NOT NULL but is being changed to 
+         NVARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with
+         type  NVARCHAR (50) NULL.
+       The column [dbo].[PaisOrigem].[CodigoNumerico] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Ator] (Default Constraint)
+       unnamed constraint on [dbo].[Avaliacao] (Default Constraint)
+       [dbo].[DF__Classific__Ativo__2D27B809] (Default Constraint)
+       unnamed constraint on [dbo].[Diretor] (Default Constraint)
+       unnamed constraint on [dbo].[Episodio] (Default Constraint)
+       unnamed constraint on [dbo].[Genero] (Default Constraint)
+       unnamed constraint on [dbo].[IdiomaDublado] (Default Constraint)
+       unnamed constraint on [dbo].[IdiomaLegendado] (Default Constraint)
+       unnamed constraint on [dbo].[PaisOrigem] (Default Constraint)
+       unnamed constraint on [dbo].[Produtora] (Default Constraint)
+       unnamed constraint on [dbo].[Serie] (Default Constraint)
+       unnamed constraint on [dbo].[Serie_Ator] (Foreign Key)
+       unnamed constraint on [dbo].[Serie_Genero] (Foreign Key)
+       unnamed constraint on [dbo].[Serie_Dublagem] (Foreign Key)
+       unnamed constraint on [dbo].[Serie_Legenda] (Foreign Key)
+       unnamed constraint on [dbo].[Serie_Ator] (Foreign Key)
+       unnamed constraint on [dbo].[Serie_Genero] (Foreign Key)
+       unnamed constraint on [dbo].[Serie_Legenda] (Foreign Key)
+       unnamed constraint on [dbo].[Serie_Dublagem] (Foreign Key)
+     Table rebuild
+       [dbo].[Ator] (Table)
+       [dbo].[Avaliacao] (Table)
+       [dbo].[ClassificacaoEtaria] (Table)
+       [dbo].[Diretor] (Table)
+       [dbo].[Episodio] (Table)
+       [dbo].[Genero] (Table)
+       [dbo].[IdiomaDublado] (Table)
+       [dbo].[IdiomaLegendado] (Table)
+       [dbo].[PaisOrigem] (Table)
+       [dbo].[Produtora] (Table)
+       [dbo].[Serie] (Table)
+       [dbo].[Serie_Ator] (Table)
+       [dbo].[Serie_Genero] (Table)
+     Create
+       [dbo].[Serie_Dublado] (Table)
+       [dbo].[Serie_Legendado] (Table)
+       [dbo].[FK_SERIEATOR] (Foreign Key)
+       [dbo].[FK_ATOR] (Foreign Key)
+       [dbo].[FK_Serie_Genero_IdSerie] (Foreign Key)
+       [dbo].[FK_Serie_Genero_IdGenero] (Foreign Key)
+       [dbo].[FK_Serie_Dublado_IdSerie] (Foreign Key)
+       [dbo].[FK_Serie_Dublado_IdIdiomaDublado] (Foreign Key)
+       [dbo].[FK_Serie_Legendado_ToTable] (Foreign Key)
+       [dbo].[FK_Serie_Legendado_ToTable_1] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Avaliacao_IdSerie] (Foreign Key)
+       [dbo].[FK_Serie_IdClassificacaoEtaria] (Foreign Key)
+       [dbo].[FK_Serie_IdDiretor] (Foreign Key)
+       [dbo].[FK_Episodio_IdSerie] (Foreign Key)
+       [dbo].[FK_Serie_IdPaisOrigem] (Foreign Key)
+       [dbo].[FK_Serie_IdProdutora] (Foreign Key)
+     Create
+       [dbo].[FK_Avaliacao_IdSerie] (Foreign Key)
+       [dbo].[FK_Serie_IdClassificacaoEtaria] (Foreign Key)
+       [dbo].[FK_Serie_IdDiretor] (Foreign Key)
+       [dbo].[FK_Episodio_IdSerie] (Foreign Key)
+       [dbo].[FK_Serie_IdPaisOrigem] (Foreign Key)
+       [dbo].[FK_Serie_IdProdutora] (Foreign Key)
+
+The type for column NomeAtor in table [dbo].[Ator] is currently  NVARCHAR (100) NOT NULL but is being changed to  NVARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  NVARCHAR (50) NULL.
+The type for column NomeGenero in table [dbo].[Genero] is currently  NVARCHAR (100) NOT NULL but is being changed to  NVARCHAR (50) NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  NVARCHAR (50) NULL.
+The column [dbo].[PaisOrigem].[CodigoNumerico] is being dropped, data loss could occur.
+

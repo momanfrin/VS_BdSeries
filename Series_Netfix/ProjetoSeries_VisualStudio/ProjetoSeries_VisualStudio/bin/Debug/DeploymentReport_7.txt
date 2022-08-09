@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Diretor]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Diretor] (Default Constraint)
+     Table rebuild
+       [dbo].[Diretor] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Serie_IdDiretor] (Foreign Key)
+     Create
+       [dbo].[FK_Serie_IdDiretor] (Foreign Key)

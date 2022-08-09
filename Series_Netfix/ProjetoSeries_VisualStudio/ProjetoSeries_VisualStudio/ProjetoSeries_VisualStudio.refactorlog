@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="8ea79e90-439c-4b33-b127-f36be7b233ad" ChangeDateTime="06/22/2022 23:29:03">
+    <Property Name="ElementName" Value="[dbo].[Diretor].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Diretor]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdDiretor" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cbf6ede2-60e1-4f12-b068-aec7108cc310" ChangeDateTime="06/22/2022 23:47:07">
+    <Property Name="ElementName" Value="[dbo].[Produtora].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Produtora]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdProdutora" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="60b64a1b-aaee-4b45-ac69-43f4f5cb1f36" ChangeDateTime="06/24/2022 13:55:18">
+    <Property Name="ElementName" Value="[dbo].[PaisOrigem].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PaisOrigem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdPais" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="570c759e-b79f-441e-bfbd-7659a4221844" ChangeDateTime="06/24/2022 14:27:41">
+    <Property Name="ElementName" Value="[dbo].[ClassificacaoEtaria].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClassificacaoEtaria]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdClassificacaoEtaria" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a644d18b-86a5-4c34-ba6c-3ebc241d055f" ChangeDateTime="06/24/2022 14:27:47">
+    <Property Name="ElementName" Value="[dbo].[ClassificacaoEtaria].[NomeProdutora]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClassificacaoEtaria]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FaixaClassificacao" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a9fd0c9a-cd5a-4f55-9037-4b5a10027714" ChangeDateTime="06/24/2022 14:28:48">
+    <Property Name="ElementName" Value="[dbo].[ClassificacaoEtaria].[fsfsf]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClassificacaoEtaria]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Descricao" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1a9b5790-cb4e-4ff0-ad38-4b74b51d75e7" ChangeDateTime="06/24/2022 14:31:05">
+    <Property Name="ElementName" Value="[dbo].[Genero].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Genero]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdGenero" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b72753aa-6c6c-4287-b824-89c670360f6e" ChangeDateTime="06/24/2022 14:31:18">
+    <Property Name="ElementName" Value="[dbo].[Genero].[NomeProdutora]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Genero]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NomeGenero" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9487ef71-4209-4426-b7fc-63d6d03c691f" ChangeDateTime="06/24/2022 14:32:22">
+    <Property Name="ElementName" Value="[dbo].[Ator].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Ator]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdAtor" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="95fdcb8c-ce44-4afc-834f-0925b4041b4f" ChangeDateTime="06/24/2022 14:32:39">
+    <Property Name="ElementName" Value="[dbo].[Ator].[NomeProdutora]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Ator]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NomeAtor" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a47ef896-1c6e-4796-96ba-9b89ff2c0a02" ChangeDateTime="06/24/2022 14:34:39">
+    <Property Name="ElementName" Value="[dbo].[IdiomaDublado].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[IdiomaDublado]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdIdiomaDublado" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="44aefe1a-8886-4fee-b3b5-91c568512497" ChangeDateTime="06/24/2022 14:34:45">
+    <Property Name="ElementName" Value="[dbo].[IdiomaDublado].[NomeProdutora]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[IdiomaDublado]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NomeIdiomaDublado" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="35990623-a8f4-426a-81d9-c217e0e939cf" ChangeDateTime="06/24/2022 14:35:14">
+    <Property Name="ElementName" Value="[dbo].[IdiomaLegendado].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[IdiomaLegendado]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdIdiomaLegendado" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="514e797b-45ad-4cd1-abe3-0c786ed9619a" ChangeDateTime="06/24/2022 14:35:20">
+    <Property Name="ElementName" Value="[dbo].[IdiomaLegendado].[NomeProdutora]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[IdiomaLegendado]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NomeIdiomaLegendado" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c048b6c0-244e-44b7-8900-8fe064aa5be6" ChangeDateTime="06/24/2022 14:36:24">
+    <Property Name="ElementName" Value="[dbo].[Serie].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Serie]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdSerie" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="04bf755d-8bda-4783-a585-1bd54d74ce69" ChangeDateTime="06/24/2022 14:39:24">
+    <Property Name="ElementName" Value="[dbo].[FK_Serie_Diretor]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Serie]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Serie_IdDiretor]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b892f271-383b-4978-9c47-ff51b8f9ba8c" ChangeDateTime="06/24/2022 14:48:34">
+    <Property Name="ElementName" Value="[dbo].[Episodio].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Episodio]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdSerie" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4517d280-9008-4bb5-96eb-64a0feb0dea6" ChangeDateTime="06/24/2022 14:50:14">
+    <Property Name="ElementName" Value="[dbo].[Avaliacao].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Avaliacao]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdAvaliacao" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c13e0572-ca17-4130-bd06-671bb883555e" ChangeDateTime="06/24/2022 14:53:33">
+    <Property Name="ElementName" Value="[dbo].[Serie_Ator].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Serie_Ator]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdSerie" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4d7455e4-19db-4c92-86b3-1ad1cb2a5379" ChangeDateTime="06/24/2022 14:54:29">
+    <Property Name="ElementName" Value="[dbo].[AK_Serie_Ator_Column]" />
+    <Property Name="ElementType" Value="SqlUniqueConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Serie_Ator]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[AK_Serie_Ator_IdAtor]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8367d765-6689-4a53-a4d6-2c66ff36399a" ChangeDateTime="06/24/2022 14:58:08">
+    <Property Name="ElementName" Value="[dbo].[Serie_Genero].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Serie_Genero]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdSerie" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9d048319-b729-4b81-9872-32984bf96b99" ChangeDateTime="06/24/2022 15:03:06">
+    <Property Name="ElementName" Value="[dbo].[Serie_Dublado].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Serie_Dublado]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdSerie" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6fdcc512-2d47-4c2e-9a5f-cc45aec30c12" ChangeDateTime="06/24/2022 15:03:40">
+    <Property Name="ElementName" Value="[dbo].[FK_Serie_Dublado_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Serie_Dublado]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Serie_Dublado_IdSerie]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="863ec657-04da-4415-bc56-bbbb8c6dc5af" ChangeDateTime="06/24/2022 15:05:43">
+    <Property Name="ElementName" Value="[dbo].[Serie_Legendado].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Serie_Legendado]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdSerie" />
+  </Operation>
+</Operations>
